@@ -585,7 +585,7 @@ export default function Portfolio() {
                     Download CV
                   </a>
                   <div style={{ marginTop: "32px", display: "flex", gap: "24px", flexWrap: "wrap" }}>
-                    {[{ label: "Portfolio", href: "https://karimmelhemportfolio.netlify.app" }, { label: "WhatsApp", href: "https://wa.me/96171958051" }, { label: "LinkedIn", href: "#" }].map(link => (
+                    {[{ label: "Portfolio", href: "https://karimmelhemgd.netlify.app" }, { label: "WhatsApp", href: "https://wa.me/96171958051" }, { label: "LinkedIn", href: "#" }].map(link => (
                       <a key={link.label} href={link.href} target="_blank" rel="noreferrer"
                         style={{ fontSize: "11px", letterSpacing: "0.12em", textTransform: "uppercase", color: "#F5EDD644", textDecoration: "none", transition: "color 0.3s", cursor: "none" }}
                         onMouseEnter={e => (e.target as HTMLElement).style.color = "#C9873A"}
